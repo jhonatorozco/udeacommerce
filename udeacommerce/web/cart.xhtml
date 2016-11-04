@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <f:view>
+
+
+            <h:form>
+                <h1><h:outputText value="List"/></h1>
+                <h:dataTable value="#{sp.cart}" var="item" border="1" cellpadding="7px"
+                             style="border-collapse: collapse">
+                    
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Name"/>
+                        </f:facet>
+                        <h:outputText value="#{item.pr.name}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Price"/>
+                        </f:facet>
+                        <h:outputText value="#{item.pr.price}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Image"/>
+                        </f:facet>
+                        <h:graphicImage library="images"
+                                        name="${item.pr.image}"
+                                        width="50px"
+                                        height="50px"/>
+                    </h:column>
+                    
+                      <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Quantity"/>
+                        </f:facet>
+                        <h:inputText value="#{item.quantity}" style="width: 20px"/>
+                    </h:column>
+                    
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Action"/>
+                        </f:facet>
+                           <h:commandButton value="delete" action="${sp.remove(item)}"/>
+                    </h:column>
+                    
+                    <f:facet name="footer">
+                        total:${sp.total}
+                    </f:facet>
+                    
+                </h:dataTable>
+                <h:commandButton value="update" action="${sp.update()}"/>
+                 <h:commandButton value="payment" action="${sp.payment()}"/>
+            </h:form>
+        </f:view>
+        <h:link outcome="index" value="continue la compra..."/>
+
+    </h:body>
+</html>
+

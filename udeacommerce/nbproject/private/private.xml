@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/co/edu/udea/model/HibernateUtil.java</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/co/edu/udea/entity/Item.java</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/co/edu/udea/controller/ProductController.java</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/web/cart.xhtml</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/web/resources/images/image1.jpg</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/co/edu/udea/entity/Products.hbm.xml</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/co/edu/udea/model/ProductDAO.java</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/web/resources/images/image2.jpg</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/web/index.xhtml</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/hibernate.reveng.xml</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/co/edu/udea/entity/Products.java</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/hibernate.cfg.xml</file>
+            <file>file:/home/estudiantelis/NetBeansProjects/udeacommerce/src/java/co/edu/udea/controller/ShoppingCart.java</file>
+        </group>
+    </open-files>
+</project-private>
